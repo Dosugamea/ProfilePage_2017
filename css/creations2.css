@@ -1,0 +1,103 @@
+body.bg {
+	font-family:Arial, sans-serif;
+	background-color: #999966;
+}
+
+html {
+	font-size: calc(70.0% + 0.5vw)
+}
+
+span {
+   display: inline-block;
+}
+
+div.uparea {
+	display: flex;
+	flex-direction: row;
+	margin: 2px auto 5px auto;
+	width : 100%;
+	height: 100px;
+}
+
+div.head {
+ font-size: 20px;	
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center; /* 横方向中央揃え */
+	background-color: lightgreen;
+	border: 2px solid black;
+	margin: 2px 5px 5px 5px;
+	width : 30%;
+	height: 100px;
+}
+
+div.menu {
+	display: flex;
+	flex-direction: row;
+	margin: 2px 5px 5px 0px;
+	width : 70%;
+	height: 50px;
+}
+
+div.button {
+	background-color: #ff6600;
+	display: flex;
+	flex-direction: row;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center; /* 横方向中央揃え */
+	border: 2px solid black;
+	width : 25%;
+	height: 50px;
+}
+
+div.content {
+	background-color: #ffcc66;
+	margin: 5px 5px 5px 5px;
+	width : auto;
+	height: 800px;
+}
+
+div.Main{
+	background-color: lightgreen;
+	border: 2px solid black;
+	margin: 20px 5px 5px 5px;
+	width : auto;
+	height: auto;
+}
+
+div.Sub{
+	text-align: center;
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center; /* 横方向中央揃え */
+	border: 1px solid black;
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	height: auto;
+	width : auto;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.Box{
+	max-height: 300px;
+	height: 30vw;
+	width : auto;
+}
+
+img.Box2{
+	max-height: 400px;
+	height: 40vw;
+	width : auto;
+}

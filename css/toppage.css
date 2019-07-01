@@ -1,0 +1,83 @@
+body.bg {
+	font-family:Arial, sans-serif;
+	background-color: #999966;
+	font-size: 2vw;
+}
+
+p.resizeimage img { width: 30vw; }
+
+div.menu {
+	display: flex;
+	flex-direction: row;
+	margin: 2px 5px 5px 5px;
+	width : auto;
+	height: 55px;
+}
+
+div.button {
+	background-color: #ff6600;
+	display: flex;
+	flex-direction: row;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center; /* 横方向中央揃え */
+	border: 2px solid black;
+	width : 500px;
+	height: 50px;
+}
+
+div.header {
+	background-color: lightgreen;
+	border: 2px solid black;
+	margin: 5px 5px 5px 5px;
+	width : auto;
+	height: 150px;
+	font-size: 4vw;
+	text-align: center;
+}
+
+div.content {
+	background-color: #ffcc66;
+	margin: 5px 5px 5px 5px;
+	width : auto;
+	height: 350px;
+}
+
+div.upperMenu {
+	margin: 3px 0px 3px 0px;
+	border: 2px solid black;
+	width : auto;
+	height: 50px;
+}
+
+div.counter{
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+}
+
+div.leftMenu {
+	background-color: lightgreen;
+	margin: 0px 5px 5px 0px;
+	border: 2px solid black;
+	width : 25%;
+	height: 115%;
+}
+
+div.Main{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin: 3px auto 3px auto;
+	width : auto;
+	height: 85%;
+}
+
+div.lastModified{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

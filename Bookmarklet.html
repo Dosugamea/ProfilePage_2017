@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="ja_JP" />
+		<link rel="stylesheet" href="css/bookmarklet.css">
+		<title>Bookmarklet page</title>
+	</head>
+	
+ 	<body>
+		<div class="upperarea">
+			<div class="t1">
+				<div class="bmtl"><font size="3.8"><b>Bookmarklet</b></font></div>
+			</div>
+		<div class="show_box2">
+			<div class="bookmarklet">
+			<b>[i]</b>
+			<p> <span>作成したブックマークレットを</span><span>配布している</span><span>ページです。</span><span>左側の画像をクリックすると</span><span>使い方を再生できます。</span></p>
+			</div>
+		</div>
+			<div class="t2">
+				<div class="bmtr"><font size="5"><b><a href="Toppage.html">Return</a></b></font></div>
+			</div>
+		</div>
+		
+		
+		<div class="show_box">
+			<img class= "gifanim"src="img/send_to_line.png" onclick="this.src='img/send_line.gif';" alt="">
+			<div class="bookmarklet">
+			[リンク版:]<a href="javascript:(function(){if(encodeURI(window.location.href).indexOf('http')==-1){alert('このページは送れません');exit;}window.open('https://lineit.line.me/share/ui?url='+encodeURI(window.location.href),'','width=500,height=400');})();");"><span class="u">このリンクを</span><span class="u">お気に入りに入れてください</span></a><br>
+			[コピペ版:]<input type="text" size=25 readonly name="bookmark" onClick="this.select();" value="javascript:(function(){if(encodeURI(window.location.href).indexOf('http')==-1){alert('このページは送れません');exit;}window.open('https://lineit.line.me/share/ui?url='+encodeURI(window.location.href),'','width=500,height=400');})();"><br></div>
+		</div>
+		
+		<div class="show_box">
+			<img class= "gifanim"src="img/send_to_twitter.png" onclick="this.src='img/send_twitter.gif';" alt="">
+			<div class="bookmarklet">
+			[リンク版:]<a href="javascript:(function(){if(encodeURI(window.location.href).indexOf('http')==-1){alert('このページは送れません');exit;}window.open('https://twitter.com/intent/tweet?text='+document.title+'&url='+document.location,'sharewindow','width=550, height=450,personalbar=0, toolbar=0, scrollbars=1, resizable=0');})();"><span class="u">このリンクを</span><span class="u">お気に入りに入れてください</span></a><br>
+			[コピペ版:]<input type="text" size=25 readonly name="bookmark" onClick="this.select();" value="javascript:(function(){if(encodeURI(window.location.href).indexOf('http')==-1){alert('このページは送れません');exit;}window.open('https://twitter.com/intent/tweet?text='+document.title+'&url='+document.location,'sharewindow','width=550, height=450,personalbar=0, toolbar=0, scrollbars=1, resizable=0');})();"><br></div>
+		</div>
+		
+		<div class="show_box">
+			<img class= "gifanim"src="img/send_to_translate.png" onclick="this.src='img/send_translate.gif';" alt="">
+			<div class="bookmarklet">
+			[リンク版:]<a href="javascript:if(encodeURI(window.getSelection().toString())!=''){window.open('https://translate.google.co.jp/?hl=ja#auto/ja/'+encodeURI(window.getSelection().toString()),'','width=800,height=700')}"><span class="u">このリンクを</span><span class="u">お気に入りに入れてください</span></a><br>
+			[コピペ版:]<input type="text" size=25 readonly name="bookmark" onClick="this.select();" value="javascript:if(encodeURI(window.getSelection().toString())!=''){window.open('https://translate.google.co.jp/?hl=ja#auto/ja/'+encodeURI(window.getSelection().toString()),'','width=800,height=700')}"><br></div>
+		</div>
+ 	</body>
+</html>

@@ -1,0 +1,143 @@
+body.bg {
+	font-family:Arial, sans-serif;
+	background-color: #999966;
+}
+
+html {
+	font-size: calc(112.5% + 0.5vw)
+}
+
+span {
+   display: inline-block;
+}
+
+p.small {
+	font-size: calc(40% + 0.5vw)
+}
+
+p.small2 {
+	font-size: calc(75% + 0.5vw)
+	margin-top: -20px;
+	margin-left: 5px;
+}
+
+
+p.fit{
+	font-size: 3vw;
+	margin-top: -20px;
+	margin-left: 5px;
+}
+
+div.title{
+	height: 100%;
+	line-height: 150px;
+	font-size: 6vw;
+ display: -webkit-flex;
+	flex-direction: column;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+}
+
+div.header {
+	background-color: lightgreen;
+	border: 2px solid black;
+	margin: 5px 5px 5px 5px;
+	width : auto;
+	height: 150px;
+	position: relative;
+}
+
+div.content {
+	background-color: #ffcc66;
+	margin: 5px 5px 0px 5px;
+	width : auto;
+	height: 1000px;
+}
+
+div.w_title{
+	font-size: 3vw;
+}
+
+div.leftMenu {
+	background-color: lightgreen;
+	margin: 0px 0px 5px 0px;
+	border: 2px solid black;
+	width : 20%;
+	height: 996px;
+}
+
+div.back{
+	height: 50px;
+	line-height: 45px;
+	font-size: 3vw;
+	border: 2px solid black;
+	width: 18%;
+	height: 30%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 5px 5px 5px 0px;
+	 display: -webkit-flex;
+	flex-direction: column;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+}
+
+div.rightMenu {
+	position: relative;
+	background-color: lightgreen;
+	margin: 0px 0px 5px 0px;
+	border: 2px solid black;
+	width : 20%;
+	height: 996px;
+}
+
+div.topics{
+	width : 60%;
+	height: 1000px;
+ display: -webkit-flex;
+	flex-direction: column;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+}
+
+div.topic{
+	position: relative;
+	background-color: white;
+	border: 2px solid black;
+	width : 95%;
+	height: auto + 100px;
+	margin: 10px auto 15px auto;
+}
+
+div.t_title{
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 3vw;
+}
+
+img.Pimage{
+	text-align: center;
+	margin-top: 1.3vw;
+	margin-left: 0.9vw;
+	width : 17vw;
+	height : 15vw;
+}
+
+div.date{
+	position: absolute;
+	font-size: 2vw;
+	right: 5px;
+	bottom: 10px;
+}
+
+div.Main{
+	display: flex;
+	flex-direction: row;
+	margin: 3px auto 3px auto;
+	width : auto;
+	height: 93%;
+}
